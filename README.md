@@ -136,58 +136,57 @@ Below 20: Oversold condition
 Analysis: Momentum measurement, reversal identification  
 ## Risk Assessment Metrics  
 ### Volatility Analysis  
-nualized Volatility:  
+**Anualized Volatility:**  
 Standard deviation of daily returns × √252  
 Measures price uncertainty over time  
 Higher values indicate greater risk/opportunity  
-Historical Volatility:  
+**Historical Volatility:**  
 Rolling volatility calculations  
 Identifies volatility clusters  
 Compares current vs historical volatility  
-Volatility Regime Detection:  
+**Volatility Regime Detection:**  
 Low volatility: Consolidation periods  
 High volatility: Trending or news-driven periods  
 ## Risk-Adjusted Performance  
 Sharpe Ratio:  
-Formula: (Portfolio Return - Risk-free Rate) / Portfolio Standard Deviation  
-Measures excess return per unit of risk  
-Values > 1.0 considered good, > 2.0 excellent  
+- Formula: (Portfolio Return - Risk-free Rate) / Portfolio Standard Deviation  
+- Measures excess return per unit of risk  
+- Values > 1.0 considered good, > 2.0 excellent  
 Sortino Ratio:  
-Uses downside deviation instead of total volatility  
-Focus on harmful volatility only  
-Better measure for asymmetric return distributions  
+- Uses downside deviation instead of total volatility  
+- Focus on harmful volatility only  
+- Better measure for asymmetric return distributions  
 Information Ratio:  
-Active return divided by tracking error  
-Measures risk-adjusted active return  
+- Active return divided by tracking error  
+- Measures risk-adjusted active return  
 ## Drawdown Analysis  
 Maximum Drawdown:  
-Largest peak-to-trough decline  
-Worst-case scenario measurement  
-Critical for position sizing  
+- Largest peak-to-trough decline  
+- Worst-case scenario measurement  
+- Critical for position sizing  
 Average Drawdown:  
-Mean of all drawdown periods  
-Typical loss expectation  
+- Mean of all drawdown periods  
+- Typical loss expectation  
 Recovery Time Analysis:  
-Time to recover from drawdowns  
-Persistence of losses measurement  
+- Time to recover from drawdowns  
+- Persistence of losses measurement  
 Drawdown Duration:  
-Length of underwater periods  
-Risk tolerance assessment  
+- Length of underwater periods  
+- Risk tolerance assessment  
 ## Value at Risk (VaR) & Conditional VaR  
-95% VaR:  
+**95% VaR:**  
 Maximum expected loss at 95% confidence  
 Daily and monthly calculations  
 Parametric and historical methods  
-99% VaR:  
+**99% VaR:**  
 Extreme loss scenarios  
 Stress testing measure  
-Conditional VaR (CVaR):  
+**Conditional VaR (CVaR):**  
 Expected loss beyond VaR threshold  
 Tail risk measurement  
 Expected shortfall calculation  
 Implementation: Historical simulation, Monte Carlo methods  
-# Pattern Recognition & Technical Analysis  
-Support and Resistance Levels  
+# Pattern Recognition & Technical Analysis   
 Dynamic Level Detection:  
 Automatic identification of key price levels  
 Historical price reaction analysis  
@@ -222,16 +221,16 @@ Horizontal price movement
 Range-bound trading  
 Low directional momentum  
 ## Candlestick Pattern Recognition  
-Single Candle Patterns:  
+**Single Candle Patterns:**    
 Doji: Indecision, potential reversal  
 Hammer: Bullish reversal at support  
 Shooting Star: Bearish reversal at resistance  
 Long White/Black: Strong directional movement  
-Two Candle Patterns:  
+**Two Candle Patterns:**    
 Bullish Engulfing: Strong bullish reversal  
 Bearish Engulfing: Strong bearish reversal  
 Harami: Potential trend weakening  
-Three Candle Patterns:  
+**Three Candle Patterns:**    
 Morning Star: Bullish reversal pattern  
 Evening Star: Bearish reversal pattern  
 Three White Soldiers: Strong bullish continuation  
@@ -391,4 +390,5 @@ EXAMPLES:
 MIT License - see LICENSE file for details.  
 
 Disclaimer: This tool is for educational purposes only. Not financial advice. Always do your own research before making investment decisions.  
+
 
