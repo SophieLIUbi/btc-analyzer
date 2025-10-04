@@ -187,36 +187,36 @@ Tail risk measurement
 Expected shortfall calculation  
 Implementation: Historical simulation, Monte Carlo methods  
 # Pattern Recognition & Technical Analysis   
-Dynamic Level Detection:  
+**Dynamic Level Detection:**  
 Automatic identification of key price levels  
 Historical price reaction analysis  
 Strength scoring based on touches and volume  
-Support Levels:  
+**Support Levels:**  
 Price floors where buying interest emerges  
 Previous lows and consolidation areas  
 Psychological round numbers  
-Resistance Levels:  
+**Resistance Levels:**  
 Price ceilings where selling pressure appears  
 Previous highs and supply zones  
 Fibonacci levels and moving averages  
-Level Validation:  
+**Level Validation:**  
 Multiple touches increase significance  
 Volume confirmation at levels  
 Time-based strength decay  
 ## Trend Analysis  
-Trend Direction Detection:  
+**Trend Direction Detection:**  
 Algorithmic trend identification  
 Multiple timeframe analysis  
 Strength measurement (strong/weak/sideways)  
-Uptrend Characteristics:  
+**Uptrend Characteristics:**  
 Higher highs and higher lows  
 Rising moving averages  
 Positive momentum indicators  
-Downtrend Characteristics:  
+**Downtrend Characteristics:**  
 Lower highs and lower lows  
 Declining moving averages  
 Negative momentum indicators  
-Sideways/Consolidation:  
+**Sideways/Consolidation:**  
 Horizontal price movement  
 Range-bound trading  
 Low directional momentum  
@@ -235,133 +235,133 @@ Morning Star: Bullish reversal pattern
 Evening Star: Bearish reversal pattern  
 Three White Soldiers: Strong bullish continuation  
 ## Volume Pattern Analysis  
-Volume Breakout Detection:  
+**Volume Breakout Detection:**  
 High volume with price movement  
 Confirmation of trend changes  
 Breakout validation  
-Volume Divergence:  
+**Volume Divergence:**  
 Price vs volume relationship analysis  
 Hidden strength/weakness detection  
 Early warning signals  
-Volume Patterns:  
+**Volume Patterns:**  
 Accumulation: Increasing volume with stable/rising prices  
 Distribution: Increasing volume with stable/falling prices  
 Low Volume: Lack of interest, potential reversal  
 ## Fibonacci Analysis  
-Retracement Levels:  
+**Retracement Levels:**  
 23.6%, 38.2%, 50%, 61.8%, 76.4% levels  
 Natural price correction points  
 Support/resistance identification  
-Extension Levels:  
+**Extension Levels:**  
 127.2%, 161.8%, 261.8% projections  
 Price target calculation  
 Breakout level estimation  
-Time-based Fibonacci:  
+**Time-based Fibonacci:**  
 Fibonacci time zones  
 Cycle analysis  
 Timing reversal points  
 ## Data Source Integration  
 ### CoinGecko API Integration  
-Real-time Data Access:  
+**Real-time Data Access:**  
 Live Bitcoin market data  
 Global price aggregation  
 Multiple currency support (USD, EUR, BTC)  
-Historical Data:  
+**Historical Data:**  
 Up to 365 days of history  
 Hourly and daily granularity  
 OHLCV data structure  
-Rate Limiting:  
+**Rate Limiting:**  
 Respectful API usage  
 Built-in retry mechanisms  
 Error handling and fallbacks  
-Data Quality:  
+**Data Quality:**  
 Professional-grade market data  
 Multiple exchange aggregation  
 Volume-weighted pricing  
 ### CSV/Excel Data Import  
-Flexible Format Support:  
+**Flexible Format Support:**  
 Auto-detection of column structure  
 Multiple date/time formats  
 Header row identification  
-Supported Formats:  
+**Supported Formats:**  
 OHLCV (Open, High, Low, Close, Volume)  
 Timestamp-Price-Volume  
 Extended formats with additional fields  
-Data Validation:  
+**Data Validation:**  
 Missing data detection  
 Outlier identification  
 Chronological ordering verification  
-Error Handling:  
+**Error Handling:**  
 Detailed error reporting  
 Data quality warnings  
 Suggestion for fixes  
 ### JSON Data Processing  
-Structured Data Handling:  
+**Structured Data Handling:**  
 Native JSON format support  
 Nested object processing  
 Array data extraction  
-Schema Flexibility:  
+**Schema Flexibility:**  
 Multiple JSON structures supported  
 Custom field mapping  
 Automatic type conversion  
-Validation:  
+**Validation:**  
 Schema validation  
 Required field checking  
 Data type verification  
 ### Sample Data Generation  
-Realistic Market Simulation:  
+**Realistic Market Simulation:**  
 Mathematically generated price movements  
 Geometric Brownian Motion model  
 Volatility clustering simulation  
-Configurable Parameters:  
+**Configurable Parameters:**  
 Adjustable volatility levels  
 Trend direction control  
 Volume pattern simulation  
-Testing Capabilities:  
+**Testing Capabilities:**  
 Perfect for algorithm testing  
 Consistent reproducible data  
 Edge case scenario generation  
 ## Report Generation & Visualization  
 ### Interactive HTML Reports  
-Modern Web Interface:  
+**Modern Web Interface:**  
 Responsive design for all devices  
 Professional styling and layout  
 Print-friendly formatting  
-Visual Elements:  
+**Visual Elements:**  
 Color-coded trading signals  
 Statistical summary tables  
 Indicator visualization  
-Interactive Features:  
+**Interactive Features:**  
 Collapsible sections  
 Hover tooltips  
 Mobile-optimized navigation  
-Technical Content:  
+**Technical Content:**  
 Complete analysis breakdown  
 Signal explanations  
 Risk metric interpretations  
 ### Machine-Readable JSON Output  
-Structured Data:  
+**Structured Data:**  
 Complete analysis results  
 Nested data organization  
 API-ready format  
-Integration Ready:  
+**Integration Ready:**  
 Easy parsing for other systems  
 Database storage compatible  
 REST API integration  
-Comprehensive Coverage:  
+**Comprehensive Coverage:**  
 All calculated indicators  
 Statistical measures  
 Trading signals and reasoning  
 ### Console Output  
-Quick Summary View:  
+**Quick Summary View:**  
 Key metrics at a glance  
 Color-coded signals  
 Progress indicators  
-Verbose Mode:  
+**Verbose Mode:**  
 Detailed calculation steps  
 Debug information  
 Performance metrics  
-Error Reporting:  
+**Error Reporting:**  
 Clear error messages  
 Troubleshooting guidance  
 Data quality warnings  
@@ -390,5 +390,6 @@ EXAMPLES:
 MIT License - see LICENSE file for details.  
 
 Disclaimer: This tool is for educational purposes only. Not financial advice. Always do your own research before making investment decisions.  
+
 
 
